@@ -1,0 +1,141 @@
+
+
+/*  侧面导航  */
+.pageNav{width: 15%;margin-right: 0.9%;}
+.pageNavList{background: #fff;text-align:center;padding-bottom: 100px;}
+.pageNavList li{border-bottom: 1px solid #ebebeb;}
+.pageNavList a,.pageNavList p{display: block;height: 60px;line-height: 60px;color: #222;cursor: pointer;}
+.pageNavList a i,.pageNavList p i{display: inline-block;padding-right:10px;}
+.pageNavList a:hover,.pageNavList p:hover{border: none;background: linear-gradient(to right,#c7bffa,#9ea8ea);color: #fff;}
+.pageNavList .active{border: none;background: linear-gradient(to right,#c7bffa,#9ea8ea);color: #fff;}
+
+.pageNavList .pageSecondList li{border-bottom: none;}
+.pageNavList .pageSecondList a{background: none;color: #a4a4a4;}
+.pageNavList .pageSecondList a:hover{background: none;color: #222;}
+.pageNavList .pageSecondList .active{background: none;color: #222;}
+
+
+
+
+.pageContent{width:84%;}
+
+
+
+/*  标题  */
+.pageTitle{margin: 20px 0;line-height: 25px;height: 25px;border-left: 4px solid #222;font-weight: normal;padding-left: 10px;}
+.pageTitle em{font-style: normal;color:#666;}
+.pageTitle a{display: block;float: right;height: 25px;line-height: 25px;color: #222;font-size: 14px;}
+
+
+/*  主页部分为表格  */
+.pageTableBox{background: #fff;padding:20px;min-height: 500px;}
+.pageSearch {padding-bottom:10px;}
+.pageSearch .eachSearch{display: inline-block;margin-right: 20px;padding: 5px 0;}
+
+.pageSearch button{width: 66px;height: 30px;line-height:30px;border-color:#dcdfe6;}
+.eachSearch label{display: inline-block;font-size: 14px;}
+.eachSearch .el-input{width: 140px;}
+
+.eachSearch .elSearchThree{width: 100px;}
+.eachSearch .elSearchThree .el-input{width: 100%;}
+.eachSearch .el-date-editor.el-input{width: 150px;}
+
+
+.pageTable{width: 100%;text-align: center;}
+.pageTable th,.pageTable td{padding: 20px 0;line-height: 20px;color: #666;font-weight: normal;}
+.pageTable th{background:#f3f4f8;font-size: 14px;}
+.pageTable td{font-size: 12px;border-bottom: 1px solid #dadada;}
+.pageTable tr:hover{background: #efefef;}
+
+.tableState p{width: 64px;height: 24px;border: 1px solid #e7e7e7;display: inline-block;vertical-align: middle;padding: 1px;box-sizing: border-box;}
+.tableState p span{display: inline-block;width: 30px;height: 20px;line-height: 20px;color: #888;cursor: pointer;}
+.stateDeny p span:nth-child(2){background: #d0021b;color: #fff;}
+.stateSure p span:nth-child(1){background: #68daff;color: #fff;}
+
+.pageTable .cyanTd{color: #68daff;}
+.pageTable .yellowTd{color: #e99100;}
+.pageTable .redTd{color: #d0021b;}
+.pageTable .bgTd img{width:56px;display: inline-block;margin: auto 2px; }
+
+
+.pageTable button{padding: 0 7px;height:22px;line-height: 22px;font-size: 12px;color: #9ea8e9;border: 1px solid #9ea8e9;background: none;cursor: pointer;}
+.pageTable button:hover{background: #9ea8e9;color: #fff;}
+.pageTable button:disabled{background:none;border-color:#dadada;color: #dadada;cursor: not-allowed;}
+.pageTable button:disabled:hover{background:none;border-color:#dadada;color: #dadada;cursor: not-allowed;}
+
+.pageTable .cyanBtn{color: #fff;background:#68daff;border-color: #68daff;width:76px;}
+.pageTable .cyanBtn:hover{background: #68daff;}
+
+.pageTable .redBtn{color: #fff;background:#d0021b;border-color: #d0021b;width:76px;}
+.pageTable .redBtn:hover{background: #d0021b;}
+
+
+.pagination{padding: 50px;text-align: center;}
+
+
+
+
+/*  主页部分为表单  */
+.pageFormBox{background: #fff;padding:20px;min-height: 500px;}
+
+.eachPageForm{margin: 15px 0;}
+.eachPageForm label{display: inline-block;width: 110px;font-size: 16px;color: #666;vertical-align: top;line-height: 36px;}
+.eachPageForm .elInput,.eachPageForm .elSelect,.eachPageForm .pageUpload{display: inline-block;width: 320px;}
+
+.elSelect .el-select{width: 100%;}
+.elSelectThree .el-select{width: 32%;float: left;}
+.elSelectThree .el-select:nth-child(2){margin:0 2%;}
+
+
+.pageUpload img{display: block;width:260px;height: 140px;margin:10px 0;border: 1px solid #dcdfe6;}
+.pageUpload .choseBtn{width:120px;height: 26px;border-color: #dcdfe6;border-radius: 4px;margin-top: 8px;}
+.pageUpload .choseBtn:disabled:hover{border-color: none;cursor: not-allowed;}
+.pageUpload span{display: inline-block;font-size: 14px;color: #666;padding-left: 10px;}
+
+.pageFormLine{margin: 30px 0 10px;width: 100%;height: 1px;background:#dadada;}
+.eachPageForm .subBtn{width:198px;height: 58px;font-size: 18px;border-color: #dcdfe6;border-radius: 4px;}
+.eachPageForm .subBtn:disabled:hover{border-color: none;cursor: not-allowed;}
+
+
+.rateBar{width: 200px;position: relative;background: #ccc;height: 5px;border-radius: 10px;display: inline-block;vertical-align: middle;}
+.rateBar em{background:linear-gradient(to right,#c7bffa,#9ea8ea);position: absolute;top: 0;left: 0;width: 0;border-radius: 10px;height: 5px;}
+.pageVideoRate span{display: inline-block;height: 40px;line-height: 40px;}
+
+
+/*  商机管理--轮播图  */
+.eachPageForm .bannerUpload{width:800px;}
+.uploadBannerWrap{width: 100%;}
+.uploadBannerPic{display: inline-block;position: relative;height: 79px;width: 146px;margin-right: 8px;border: 1px solid #dcdfe6;margin-bottom: 10px;}
+.uploadBannerPic img{display: block;height: 100%;width: 100%;margin: 0;border: none;}
+.uploadBannerPic p{position: absolute;top: 0;left: 0;width: 146px;height: 79px;background: rgba(0,0,0,.3);color: red;line-height: 79px;text-align: center;cursor: pointer;}
+
+
+
+/*  商机管理--视频上传  */
+.pageUpload .pageVideoWrap{display: block;width:262px;height: 142px;margin:10px 0;border: 1px solid #dcdfe6; }
+
+
+
+/*  商机管理--项目介绍  */
+.eachPageForm .richText{width:800px;height: 500px;display: inline-block;}
+
+
+
+.pageSearch{position: relative;}
+.pageAdd{position: absolute;right: 0;top: 0}
+.pageAdd a{color: #222;line-height: 32px;font-size: 12px;}
+
+
+.JumperLineInput textarea{width: 280px;height: 200px;}
+
+
+
+
+
+/*  账户管理--安全中心  */
+.securityBox{padding-left: 23px;}
+.securityTitle{line-height: 25px;font-size: 18px;padding-bottom: 20px;}
+.securityTitle img{height: 20px;vertical-align: middle;}
+
+
+

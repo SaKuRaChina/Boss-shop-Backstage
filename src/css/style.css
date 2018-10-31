@@ -1,0 +1,207 @@
+
+/*  公有样式  */
+*{margin: 0;padding: 0}
+a:hover,a:link,a:active,a:visited{text-decoration: none;}
+ul,ol{list-style: none;}
+
+body{background: #f3f4f8;color: #222;font-family: "微软雅黑",'Microsoft YaHei'}
+
+.clearfix::after{content:"";display: block;height: 0;visibility: hidden;clear: both;}
+
+.center{width:1200px;margin:0 auto;}
+.left{float: left;}
+.right{float: right;}
+
+
+
+/*  按钮基本样式及hover样式   */
+.commonBtn{border: 1px solid #dcdfe6;background: none;font-size: 12px;cursor: pointer;border-radius: 4px;}
+.commonBtn:hover{border-color: transparent;background: linear-gradient(to right,#c7bffa,#9ea8ea);color: #fff;}
+.commonBtn:disabled{color: #c2c2c2;border-color: #c2c2c2;background: none;}
+.commonBtn:disabled:hover{color: #c2c2c2;border-color: #c2c2c2;background: none;cursor: not-allowed;}
+.grayBtn{color: #c2c2c2;border-color: #c2c2c2;}
+
+
+
+/*  返回导航  */
+.routerUrl{padding: 20px 0;height: 25px;}
+.routerUrl img{width: 20px;height: 20px;margin-right: 10px;vertical-align: middle;}
+.routerUrl a{display: block;height: 25px;line-height: 25px;font-size: 18px;color: #222;}
+
+
+
+
+/*  阿里巴巴iconfont  */
+@font-face {
+	font-family: 'iconfont';
+	src: url('./iconfont/iconfont.eot');
+	src: url('./iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+	url('./iconfont/iconfont.woff') format('woff'),
+	url('./iconfont/iconfont.ttf') format('truetype'),
+	url('./iconfont/iconfont.svg#iconfont') format('svg');
+}
+
+
+.iconfont{
+	font-family:"iconfont" !important;
+	font-size:16px;font-style:normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: 0.2px;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+
+/*  弹框  */
+.jumperWrap{width: 100%;height: 100%;position: fixed;top: 0;left: 0;background: rgba(0,0,0,.5);z-index: 1000;}
+
+.jumperPos{position: absolute;top:0;left: 0;bottom: 0;right: 0;margin:auto;box-sizing: border-box;background: #fff;}
+.jumperTitle{background: #9ea8e9;color: #fff;padding: 10px 36px;width: 100%;box-sizing: border-box;}
+.jumperTitle h2{font-weight: normal;font-size:20px;height: 30px;line-height: 30px;}
+.jumperTitle img{display: block;height: 30px;width: 30px;cursor: pointer;}
+.jumperContent{width: 100%;padding:20px 36px;box-sizing: border-box;}
+.jumperLine{width:352px;height: 1px;margin:0 auto;background: #dadada;margin-top: 10px;}
+.jumperBtn{width: 167px;height: 50px;margin: 30px auto 0;display: block;}
+
+.outer-box{overflow: hidden;height: 500px;}
+.inner-box{overflow-y: scroll;height: 460px;overflow-x: hidden;width: 730px;}
+
+
+.slim-outer-box{overflow: hidden;height: 500px;}
+.slim-inner-box{overflow-y: scroll;height: 460px;overflow-x: hidden;width: 460px;}
+
+
+
+
+/*  首页--开通产品推广/开通项目推广  */
+/*.productPromotionBox{width:440px;height: 600px;}*/
+/*.programPromotionBox{width:440px;height: 600px;}*/
+.productPromotionBox{width:440px;height: 420px;}
+.programPromotionBox{width:440px;height: 420px;}
+
+.indexJumperIntro{padding-bottom: 15px;}
+.indexJumperIntro h4{font-weight: normal;font-size: 12px;line-height: 30px;}
+.indexJumperIntro p{font-size: 12px;line-height: 20px;color: #888;}
+
+.indexJumperPay{padding-bottom: 10px;}
+.jumperPayTip{padding: 10px 0;}
+.jumperPayTip label,.jumperPayTip em{display: inline-block;width: 75px;font-size: 12px;font-style: normal;}
+.jumperPayTip em{color: #666;}
+
+
+
+
+/*  首页--开通红包推广  */
+.pocketPromotionBox{width:440px;height: 380px;}
+
+
+
+
+
+/*  表格弹框  */
+.eachJumperLine label{display: inline-block;width: 70px;font-size: 12px;line-height: 32px;vertical-align: top;}
+.eachJumperLine .JumperLineInput{width: 290px;display: inline-block;}
+.eachJumperLine .shortLineInput{width: 135px;}
+.eachJumperLine .longLineInput{width: 600px;}
+.eachJumperLine span{display: inline-block;line-height: 32px;font-size:12px;color: #888;line-height: 30px;word-break: break-all;}
+.jumperLineLong{width:600px;}
+
+.jumperFileBtn{width: 100px;height: 30px;line-height: 30px;}
+
+
+
+/*  驳回原因  */
+.rejectBox{width:440px;height: 320px;}
+.rejectBox textarea{width: 100%;height: 200px;line-height: 25px;}
+
+
+
+
+/*  回复  */
+.replayBox{width: 440px;height: 400px;}
+.replayBox textarea{width: 100%;height: 200px;line-height: 25px;}
+
+
+
+
+/*  佣金管理  */
+.ownChargeBox{width: 440px;height: 340px;}
+.eachJumperLine{padding: 8px 0;}
+
+
+
+
+
+
+/*  boss头条  */
+.bossHeadlineBox{width: 800px;height: 550px;}
+.bossHeadlineBox1 .videoHeadline{display: none;}
+.bossHeadlineBox2 .contentHeadling,.bossHeadlineBox2 .coverSelectHeadline{display: none;}
+
+
+
+/*  首页-更换头像  */
+.mineHeadBox{height: 350px;width: 440px;}
+.mineHeadContent{text-align: center;padding-bottom: 10px;}
+.mineHeadContent img{width: 70px;height: 70px;border-radius: 50%;margin: 5px 0;}
+.mineHeadContent span{display: block;line-height: 30px;font-size: 12px;}
+.mineHeadContent p{font-size: 12px;}
+.mineHeadBox .el-upload{width: 100%;}
+
+
+
+/*  产品推广-产品管理-产品   */
+.productManageBox{width: 800px;height: 550px;}
+
+
+
+/*  公司成员  */
+.memberDetailBox{width: 440px;height: 550px;}
+.rightLabel label{text-align: right;}
+.rightLabel .JumperLineInput{padding-left: 20px;width: 250px;}
+
+.JumperCard img{width:120px;}
+
+
+
+/*  产品服务  */
+.productServiceBox{width: 440px;height: 550px;}
+
+
+
+/*  修改密码  */
+.revisePassportBox{width: 440px;height: 350px;}
+.eachJumperLine .checkCode{color: #f0b44f;cursor: pointer;}
+
+
+/*  修改密保手机  */
+.revisePhoneBox{width: 440px;height: 300px;}
+
+
+
+/*  付款  */
+.qrCodeBox{width: 400px;height: 400px;}
+.qrCodeContent{text-align: center;}
+.qrCodeContent .qrcode{width: 200px;height: 200px;margin: 0 auto;}
+.qrCodeContent p{line-height: 80px;}
+
+
+
+/*  模板管理  */
+.sendTemplateBox{width: 440px;height: 500px;}
+.sendTemplateBox .slim-inner-box{height: 310px;}
+
+
+/*  派发红包  */
+.sendPocketBox{width: 440px;height: 500px;}
+.sendPocketBox .slim-inner-box{height: 320px;}
+.eachJumperLine .fouthLabel{margin-left: 0;width: 60px;}
+
+
+.chooseTemplateBox{width: 800px;height: 550px; }
+
+
+.jumperVideoLine{display: inline-block;width: 120px;background: #ccc;height: 5px;border-radius: 10px;position: relative;vertical-align: middle;}
+.jumperVideoLine em{display: block;position: absolute;top: 0;left: 0;width: 0;background: linear-gradient(to right,#c7bffa,#9ea8ea);height: 5px;border-radius: 10px;}
