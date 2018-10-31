@@ -1,13 +1,12 @@
 
 <script>
 
-// const router = "http://192.168.1.188:8081"
+const router = "http://192.168.1.188:8081"
 // const router = "http://192.168.1.177:8086"
 // const router = "http://192.168.1.157:8091"
 // const router = "http://192.168.1.158:8090"
 
-// 线上接口
-const router = "https://merchantapi.juniuboss.com"
+
 
 
 //获取接口报错提示
